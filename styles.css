@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13px;
+    margin: auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2.5rem;
+    height: 50rem;
+    width: 60%;
+    margin: 10rem auto 7rem auto;
+}
+
+.card-daniel {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 27rem 2rem;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: hsl(263, 55%, 52%);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    gap: 2rem;
+}
+
+.clifford {
+    display: flex;
+    align-items: center;
+}
+
+.clifford h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1.2rem;
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+}
+
+.clifford h3 span {
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+}
+
+.clifford img {
+    width: 2.5rem;
+    border-radius: 50%;  
+    border: 2px solid hsla(210, 46%, 95%, 0.5);
+}
+
+.card-daniel h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 81%);
+}
+
+.card-daniel p {
+    color: hsla(210, 46%, 95%, 0.7);
+    letter-spacing: 0.1rem;
+    line-height: 1.3rem;
+}
+
+.card-jonathan {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.card-jonathan h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-jonathan p {
+    color: hsla(210, 46%, 95%, 0.7);
+    letter-spacing: 0.1rem;
+    line-height: 1.3rem;
+}
+
+.walters img {
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid hsla(210, 46%, 95%, 0.7);
+}
+
+.walters {
+    display: flex;
+    align-items: center;
+}
+
+.walters h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.walters h3 span {
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.card-kira {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.card-kira h2 {
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+}
+
+.whittle img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.whittle {
+    display: flex;
+    align-items: center;
+}
+
+.whittle h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1.2rem;
+    color: hsl(217, 19%, 35%);
+}
+
+.whittle h3 span {
+    color: hsla(217, 19%, 35%, 0.5);
+}
+
+.card-kira p {
+    color: hsla(217, 19%, 35%, 0.7);
+    letter-spacing: 0.1rem;
+    line-height: 1.3rem;
+}
+
+.card-jeanette {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.card-jeanette h2 {
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+}
+
+.harmon img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.harmon {
+    display: flex;
+    align-items: center;
+}
+
+.harmon h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1.2rem;
+    color: hsl(217, 19%, 35%)
+}
+
+.card-jeanette p {
+    color: hsla(217, 19%, 35%, 0.7);
+    letter-spacing: 0.1rem;
+    line-height: 1.2rem;
+}
+
+.harmon h3 span {
+    color: hsla(217, 19%, 35%, 0.5);
+}
+
+.card-patrick {
+    grid-column: 2 / span 2;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.card-patrick h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-patrick p {
+    color: hsla(0, 0%, 100%, 0.7);
+    letter-spacing: 0.1rem;
+    line-height: 1.2rem;
+}
+
+.abrams img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.abrams {
+    display: flex;
+    align-items: center;
+}
+
+.abrams h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.abrams h3 span {
+    color:hsla(0, 0%, 100%, 0.5);
+}
+
+.attribution {
+     font-size: 1rem; 
+     text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    color: hsl(263, 55%, 52%);
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 375px) {
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 2rem auto 2rem auto;
+    }
+
+    .card-daniel {
+        background-position: 16rem 0.1rem;
+    }
+
+    footer {
+        position: absolute;
+        top: 170rem;
+        left: 3.9rem;
+    }
+}
+    
